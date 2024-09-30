@@ -1,4 +1,6 @@
-msg = "Roll a Dice!"
+import numpy as np
+
+msg = "Oya Oya Brathe!"
 print(msg)
-msg.capitalize()
-msg.split()
+
+print(np.random.rand(1, 9))
