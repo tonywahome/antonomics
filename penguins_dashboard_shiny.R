@@ -10,6 +10,7 @@ library(ggExtra)
 
 penguins_csv <- "https://raw.githubusercontent.com/jcheng5/simplepenguins.R/main/penguins.csv"
 
+library(readr)
 df <- readr::read_csv(penguins_csv)
 #subsetting columns suitable for scatter plot
 View(df)
