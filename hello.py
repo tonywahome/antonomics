@@ -1,6 +1,5 @@
-import numpy as np
+import sys
 
-msg = "Oya Oya Brathe!"
-print(msg)
 
-print(np.random.rand(1, 9))
+def print_python_version():
+    print(sys.version)
